@@ -3,48 +3,39 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/login.css">  
-
+	<link rel="stylesheet" type="text/css" href="css/index.css"> 
+	<title>Index</title>
 </head>
 <body>
 
-	<div class="login-form col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-		<header>
-			<img src="img/watchguru.png" class="img-responsive">
-			<h2 class="text-center">Entre con seu <b>usuário</b> e <b>senha</b></h2>
-		</header>
-
-		<form>
-			<div class="form-group">
-				<div class="input-group">
-					<div class="input-group-addon">
-						<span class="glyphicon glyphicon-user"></span>						
-					</div>
-					<input type="text" name="" class="form-control" placeholder="Usuário">
-				</div>
+	<nav class="navbar navbar-inverse nav-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand logotipo">
+					<img src="img/watchguru.png" alt="Watch Guru" class="img-responsive">
+				</a>
 			</div>
-
-			<div class="form-group">
-				<div class="input-group">
-					<div class="input-group-addon">
-						<span class="glyphicon glyphicon-option-horizontal"></span>
-					</div>
-					<input type="password" name="" class="form-control" placeholder="Senha">
-				</div>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="nav navbar-nav">
+					<li><a href="">Orden de serviço</a></li>
+					<li><a href="">Clientes</a></li>
+					<li><a href="">Funcionários</a></li>
+					<li><a href="">Serviços</a></li>
+				</ul>
 			</div>
-		</form>
-
-		<footer>
-			<div class="checkbox pull-left">
-				<label><input type="checkbox" name="">Lembra de mim</label>
-			</div>
-			<button type="submit" class="btn btn-primary pull-right">Entrar</button>
-		</footer>
-
-	</div>
-
+		</div>		
+	</nav>
 	
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
